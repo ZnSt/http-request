@@ -1,0 +1,2 @@
+const e=document.querySelector("#login"),n=document.querySelector("#password"),t=document.querySelector("#submit");function c(e,n){return new Promise((t=>{e.addEventListener(n,(()=>{t(`It was ${n} on the element: ${e.nodeName}, id: ${e.id}.`)}))}))}function o(e){document.body.insertAdjacentHTML("beforeend",`<div class="message">\n    <p>${e}</p>\n  </div>`)}c(e,"click").then(o),c(n,"click").then(o),c(t,"click").then(o);
+//# sourceMappingURL=practic.2b00edfe.js.map

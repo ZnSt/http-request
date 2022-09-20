@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("#login"),n=document.querySelector("#password"),c=document.querySelector("#submit");function t(e,n){return new Promise((function(c){e.addEventListener(n,(function(){c("It was ".concat(n," on the element: ").concat(e.nodeName,", id: ").concat(e.id,"."))}))}))}function o(e){document.body.insertAdjacentHTML("beforeend",'<div class="message">\n    <p>'.concat(e,"</p>\n  </div>"))}t(e,"click").then(o),t(n,"click").then(o),t(c,"click").then(o)}();
+//# sourceMappingURL=practic.f388ee5e.js.map
